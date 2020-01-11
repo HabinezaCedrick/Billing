@@ -1,0 +1,44 @@
+/* menu */
+
+#tooplate_menu {
+	clear: both;
+	width: 960px;
+	height: 50px;
+	margin: 0 auto
+}
+
+#tooplate_menu ul {
+	margin: 0;
+	padding: 4px 0;
+	list-style: none;
+}
+
+#tooplate_menu ul li {
+	padding: 0;
+	margin: 0;
+	display: inline;
+}
+
+#tooplate_menu ul li a {
+	float: left;
+	display: block;
+	width: 140px;
+	height: 30px;
+	margin-right: 5px;
+	padding: 12px 0 0 0;
+	font-size: 14px;
+	color: #333;	
+	text-align: center;
+	text-decoration: none;
+	font-weight: 700;
+	outline: none;
+	border: none;
+	background:  url(images/tooplate_menu.jpg) no-repeat
+}
+
+#tooplate_menu ul li a:hover, #tooplate_menu ul .current {
+	color: #fff;
+	background: url(images/tooplate_menu_hover.jpg) no-repeat
+}
+
+/* end of menu */
